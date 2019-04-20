@@ -1,0 +1,113 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "layzr.js",
+        "scope": null,
+        "escapedName": "layzr.js",
+        "name": "layzr.js",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\HP\\PhpstormProjects\\OLD_DROP_THEMES\\old_mic"
+    ]
+  ],
+  "_from": "layzr.js@latest",
+  "_id": "layzr.js@2.2.2",
+  "_inCache": true,
+  "_location": "/layzr.js",
+  "_nodeVersion": "7.4.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/layzr.js-2.2.2.tgz_1483913028400_0.14785125898197293"
+  },
+  "_npmUser": {
+    "name": "callmecavs",
+    "email": "callmecavs@gmail.com"
+  },
+  "_npmVersion": "4.0.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "layzr.js",
+    "scope": null,
+    "escapedName": "layzr.js",
+    "name": "layzr.js",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/layzr.js/-/layzr.js-2.2.2.tgz",
+  "_shasum": "c9c6a2bd0e78f25d8ec5919c787321489ee49873",
+  "_shrinkwrap": null,
+  "_spec": "layzr.js",
+  "_where": "C:\\Users\\HP\\PhpstormProjects\\OLD_DROP_THEMES\\old_mic",
+  "author": {
+    "name": "Michael Cavalea",
+    "email": "callmecavs@gmail.com",
+    "url": "http://callmecavs.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/callmecavs/layzr.js/issues"
+  },
+  "dependencies": {
+    "knot.js": "^1.1.5"
+  },
+  "description": "A modern lazy loading library for images.",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-external-helpers": "^6.18.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.13.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "rollup": "^0.41.1",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-watch": "^3.2.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "c9c6a2bd0e78f25d8ec5919c787321489ee49873",
+    "tarball": "https://registry.npmjs.org/layzr.js/-/layzr.js-2.2.2.tgz"
+  },
+  "gitHead": "4e2bb5f66996b1abe4c774d6f7b96454f43c48ff",
+  "homepage": "https://github.com/callmecavs/layzr.js#readme",
+  "jsnext:main": "dist/layzr.module.js",
+  "keywords": [
+    "images",
+    "lazy",
+    "load",
+    "scroll"
+  ],
+  "license": "MIT",
+  "main": "dist/layzr.js",
+  "maintainers": [
+    {
+      "name": "callmecavs",
+      "email": "callmecavs@gmail.com"
+    }
+  ],
+  "module": "dist/layzr.module.js",
+  "name": "layzr.js",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callmecavs/layzr.js.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w -m inline",
+    "prebuild": "eslint src",
+    "prepublish": "npm run build",
+    "server": "python -m SimpleHTTPServer 3000"
+  },
+  "version": "2.2.2"
+}
